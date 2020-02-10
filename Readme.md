@@ -1,0 +1,3 @@
+A tool/script to hide or blur unknown faces in a video using Intel's OpenVino toolkit. The code has been taken and modified from OpenVino's face recognintion demo [https://docs.openvinotoolkit.org/2018_R5/_samples_interactive_face_detection_demo_README.html]
+
+Basic usage : "python3 main.py -i <input_video> -o <output_video> -fg <path_to_database> -m_fd <face_detector_xml> -m_lm <landmark_detector_xml> -m_reid <face_reidentification_xml> -l <cpu_extension_path> "
