@@ -1,7 +1,9 @@
 A tool/script to hide or blur unknown faces in a video using Intel's OpenVino toolkit. The code has been taken and modified from OpenVino's face recognintion demo [https://docs.openvinotoolkit.org/2018_R5/_samples_interactive_face_detection_demo_README.html]
 
-Basic usage : "python3 main.py -i <input_video> -o <output_video> -fg <path_to_database> -m_fd <face_detector_xml> -m_lm <landmark_detector_xml> -m_reid <face_reidentification_xml> -l <cpu_extension_path> "
-
+Basic usage : 
+```
+"python3 main.py -i <input_video> -o <output_video> -fg <path_to_database> -m_fd <face_detector_xml> -m_lm <landmark_detector_xml> -m_reid <face_reidentification_xml> -l <cpu_extension_path> "
+```
 Sample: (Source : https://www.youtube.com/watch?v=qkBx0gMGuhY , a clip from the movie 22 jump street(https://www.imdb.com/title/tt2294449/))
 Here, the database contains few images of the actors: Jonah Hill and Channing Tatum, and as seen some images of Jonah Hill, him being covered due to glasses can be mis recognized. (Soon to be updated in the code, the functionality to let the user select face samples from the video)
 
@@ -14,6 +16,7 @@ The database here is an image database where the images of known person (the per
 [in_gif]: https://github.com/srg9000/Openvino_secure_faces/blob/master/input.gif "Input GIF"
 [out_gif]: https://github.com/srg9000/Openvino_secure_faces/blob/master/output.gif "Output GIF"
 
+```
 usage: main.py [-h] [-i PATH] [-o PATH] [--no_show] [-tl]
                              [-cw CROP_WIDTH] [-ch CROP_HEIGHT] [-fg PATH]
                              [--run_detector] [-m_fd PATH] [-m_lm PATH]
@@ -83,5 +86,5 @@ Inference options:
   --allow_grow          (optional) Allow to grow faces gallery and to dump on
                         disk. Available only if --no_show option is off.
                         
-
+```
 
