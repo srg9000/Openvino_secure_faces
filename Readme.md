@@ -2,7 +2,9 @@ A tool/script to hide or blur unknown faces in a video using Intel's OpenVino to
 
 Basic usage : "python3 main.py -i <input_video> -o <output_video> -fg <path_to_database> -m_fd <face_detector_xml> -m_lm <landmark_detector_xml> -m_reid <face_reidentification_xml> -l <cpu_extension_path> "
 
-Sample: 
+Sample: (Source : https://www.youtube.com/watch?v=qkBx0gMGuhY , a clip from the movie 22 jump street(https://www.imdb.com/title/tt2294449/))
+Here, the database contains few images of the actors: Jonah Hill and Channing Tatum, and as seen some images of Jonah Hill, him being covered due to glasses can be mis recognized. (Soon to be updated in the code, the functionality to let the user select face samples from the video)
+
 ![Input][in_gif]
 
 ![Output][out_gif]
