@@ -1,3 +1,10 @@
+Technologies such as facial recognition are increasingly being used for unethical reasons. Due to such practices, if someone appears in a picture of someone else by mistake, there is a possibility of their identity being in danger.
+These can recently be seen in cases of protests where government identifies the peaceful protestors and try to deprive them from their fundamental rights. There have been cases of people being doxed in many cases. It is also illegal in countries like Japan to film someone without their permission.
+
+Due to such unethical practices, Joseph Redmon, the person who made great contribution to field of Computer Vision by presenting YOLO object detection, has stopped further research (src: https://twitter.com/pjreddie/status/1230524770350817280?s=20)
+
+Due to these reasons, I have tried to prevent such unwanted appearance of people by creating an application where the person can (willfully) blur the faces of anyone appearing in their surrounding in an image to keep the identity of their fellow citizens safe.
+
 A tool/script to hide or blur unknown faces in a video using Intel's OpenVino toolkit. The code has been taken and modified from OpenVino's face recognintion demo [https://docs.openvinotoolkit.org/2018_R5/_samples_interactive_face_detection_demo_README.html]
 
 Basic usage : (Make sure openvino environment has been initialized) 
